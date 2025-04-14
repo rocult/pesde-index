@@ -1,0 +1,24 @@
+# the URL of the registry API
+api = "https://pesde.petrovic.foo/"
+
+# package download URL (optional)
+# download = "{API_URL}/v1/packages/{PACKAGE}/{PACKAGE_VERSION}/{PACKAGE_TARGET}/archive"
+
+# the client ID of the GitHub OAuth app (optional)
+github_oauth_client_id = "Ov23li1vw3T17LklYCMI"
+
+# whether to allow packages with Git dependencies (default: false)
+git_allowed = true
+
+# whether to allow packages which depend on packages from other registries
+# (default: false)
+other_registries_allowed = ["https://github.com/daimond113/pesde-index"]
+
+# whether to allow packages with Wally dependencies (default: false)
+wally_allowed = ["https://github.com/UpliftGames/wally-index"]
+
+# the maximum size of the archive in bytes (default: 4MB)
+max_archive_size = 4194304
+
+# the scripts packages present in the `init` command selection by default
+scripts_packages = ["pesde/scripts_rojo"]

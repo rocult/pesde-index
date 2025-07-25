@@ -1,11 +1,11 @@
 # the URL of the registry API
-api = "https://pesde.petrovic.foo/"
+api = "https://registry.rocu.lt/"
 
 # package download URL (optional)
 # download = "{API_URL}/v1/packages/{PACKAGE}/{PACKAGE_VERSION}/{PACKAGE_TARGET}/archive"
 
 # the client ID of the GitHub OAuth app (optional)
-github_oauth_client_id = "Ov23li1vw3T17LklYCMI"
+github_oauth_client_id = "Ov23liKVrddRdOIXrtVk"
 
 # whether to allow packages with Git dependencies (default: false)
 git_allowed = true
